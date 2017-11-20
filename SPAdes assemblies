@@ -1,0 +1,13 @@
+#Code for L. aenigmaticum:
+spades.py --pe1-1 /home/FCAM/kgallagher/aenig/KJHR1D_L1_R1.fastq --pe1-2 /home/FCAM/kgallagher/aenig/KJHR1D_L1_R2.fastq --pe2-1 /home/FCAM/kgallagher/aenig/KJHR2D_L1_R1.fastq 
+--pe2-2 /home/FCAM/kgallagher/aenig/KJHR2D_L1_R2.fastq --pe3-1 /home/FCAM/kgallagher/aenig/KJHR2D_L2_R1.fastq --pe3-2 /home/FCAM/kgallagher/aenig/KJHR2D_L2_R2.fastq
+--mp1-1 /home/FCAM/kgallagher/aenig/KJHR3D_D11_R1.mp.fastq --mp1-2 /home/FCAM/kgallagher/aenig/KJHR3D_D11_R2.mp.fastq --mp2-1 /home/FCAM/kgallagher/aenig/KJHR3D_D6_R1.mp.fastq 
+--mp2-2 /home/FCAM/kgallagher/aenig/KJHR3D_D6_R2.mp.fastq -o spades_KJHRD
+
+#Code for L. daileyi:
+spades.py --pe1-1 /home/FCAM/kgallagher/KJHR1E_R1.fastq --pe1-2 /home/FCAM/kgallagher/KJHR001E_R2.fastq --pe2-1 /home/FCAM/kgallagher/KJHR2E_L1_R1.fastq --pe2-2 /home/FCAM/kgallagher/KJHR2E_L1_R2.fastq
+--pe3-1 /home/FCAM/kgallagher/KJHR2E_L2_R1.fastq --pe3-2 /home/FCAM/kgallagher/KJHR2E_L2_R2.fastq -o SPAdes_daileyi_out
+
+#Code for L. amplifica:
+spades.py --pe1-1 /home/FCAM/kgallagher/amplifica/KJHR1F_R1.fastq --pe1-2 /home/FCAM/kgallagher/amplifica/KJHR1F_R2.fastq --pe2-1 /home/FCAM/kgallagher/amplifica/KJHR2F_L1_R1.fastq
+--pe2-2 /home/FCAM/kgallagher/amplifica/KJHR2F_L1_R2.fastq --pe3-1 /home/FCAM/kgallagher/amplifica/KJHR2F_L2_R1.fastq --pe3-2 /home/FCAM/kgallagher/amplifica/KJHR2F_L2_R2.fastq -o SPAdes
