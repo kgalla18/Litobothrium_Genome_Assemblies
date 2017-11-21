@@ -1,0 +1,17 @@
+#Species library for L. aenigmaticum
+lib1 bowtie /tempdata3/KGalla/aenig/KJHR1D_L1_R1.fastq /tempdata3/KGalla/aenig/KJHR1D_L1_R2.fastq 610 0.75 FR
+lib2 bowtie /tempdata3/KGalla/aenig/KJHR2D_L1_R1.fastq /tempdata3/KGalla/aenig/KJHR2D_L1_R2.fastq 516 0.75 FR
+lib3 bowtie /tempdata3/KGalla/aenig/KJHR2D_L2_R1.fastq /tempdata3/KGalla/aenig/KJHR2D_L2_R2.fastq 516 0.75 FR
+lib4 bowtie /tempdata3/KGalla/aenig/KJHR3D_D11_R1.mp.fastq.gz /tempdata3/KGalla/aenig/KJHR3D_D11_R2.mp.fastq.gz  2395 0.85 FR
+lib5 bowtie /tempdata3/KGalla/aenig/KJHR3D_D6_R1.mp.fastq.gz /tempdata3/KGalla/aenig/KJHR3D_D6_R2.mp.fastq.gz  7539 0.85 FR
+unpaired bowtie unpaired_KJHR1D_L1.fastq
+unpaired bowtie unpaired_KJHR2D_L1.fastq
+unpaired bowtie unpaired_KJHR2D_L2.fastq
+
+#Species library for L. daileyi
+lib1 bowtie /archive/KGalla/LitoGenomes/550Seq/SickleFiles/KJHR1E_R1.fastq /archive/KGalla/LitoGenomes/550Seq/SickleFiles/KJHR001E_R2.fastq 550 0.75 FR
+lib2 bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2E_L1_R1.fastq /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2E_L1_R2.fastq 350 0.75 FR
+lib3 bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2E_L2_R1.fastq /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2E_L2_R2.fastq 350 0.75 FR
+unpaired bowtie /archive/KGalla/LitoGenomes/550Seq/SickleFiles/unpaired_KJHR1E.fastq
+unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2E_L1.fastq
+unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2E_L2.fastq
