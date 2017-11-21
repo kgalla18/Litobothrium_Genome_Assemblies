@@ -1,0 +1,18 @@
+abyss-pe k=27 name=KJHRD_AbySS27 n=10 lib='550bp 350bp_L1 350bp_L2' mp='mp1 mp2' \
+        550bp='KJHR1D_L1_R1.fastq KJHR1D_L1_R2.fastq' \
+        350bp_L1='KJHR2D_L1_R1.fastq KJHR2D_L1_R2.fastq' \
+        350bp_L2='KJHR2D_L2_R1.fastq KJHR2D_L2_R2.fastq' \
+		mp1='KJHR3D_D11_R1.mp.fastq.gz KJHR3D_D11_R2.mp.fastq.gz' \
+        se='unpaired_KJHR1D_L1.fastq unpaired_KJHR2D_L1.fastq unpaired_KJHR2D_L2.fastq'  
+
+abyss-pe k=31 name=KJHRD_AbySS31 n=10 lib='550bp 350bp_L1 350bp_L2' \
+        550bp='KJHR1D_L1_R1.fastq KJHR1D_L1_R2.fastq' \
+        350bp_L1='KJHR2D_L1_R1.fastq KJHR2D_L1_R2.fastq' \
+        350bp_L2='KJHR2D_L2_R1.fastq KJHR2D_L2_R2.fastq' \
+        se='unpaired_KJHR1D_L1.fastq unpaired_KJHR2D_L1.fastq unpaired_KJHR2D_L2.fastq'
+
+abyss-pe k=35 name=KJHRD_AbySS35 n=10 lib='550bp 350bp_L1 350bp_L2' \
+        550bp='KJHR1D_L1_R1.fastq KJHR1D_L1_R2.fastq' \
+        350bp_L1='KJHR2D_L1_R1.fastq KJHR2D_L1_R2.fastq' \
+        350bp_L2='KJHR2D_L2_R1.fastq KJHR2D_L2_R2.fastq' \
+        se='unpaired_KJHR1D_L1.fastq unpaired_KJHR2D_L1.fastq unpaired_KJHR2D_L2.fastq'
