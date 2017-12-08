@@ -1,0 +1,77 @@
+#maximal read length
+max_rd_len=150
+[LIB]
+#average insert size
+avg_ins=550
+#if sequence needs to be reversed
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 250 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+# path to genes
+q1=/tempdata3/KGalla/aenig/KJHR1D_L1_R1.fastq
+q2=/tempdata3/KGalla/aenig/KJHR1D_L1_R2.fastq
+[LIB]
+#average insert size
+avg_ins=350
+#if sequence needs to be reversed
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=3
+#use only first 250 bps of each read
+rd_len_cutoff=100
+#in which order the reads are used while scaffolding
+rank=1
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+# path to genes
+q1=/tempdata3/KGalla/aenig/KJHR2D_L1_R1.fastq
+q2=/tempdata3/KGalla/aenig/KJHR2D_L1_R2.fastq
+q1=/tempdata3/KGalla/aenig/KJHR2D_L2_R1.fastq
+q2=/tempdata3/KGalla/aenig/KJHR2D_L2_R2.fastq
+#maximal read length
+[LIB]
+#average insert size
+avg_ins=2395
+#if sequence needs to be reversed
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=2
+#use only first 250 bps of each read
+rd_len_cutoff=150
+#in which order the reads are used while scaffolding
+rank=2
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=3
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=32
+# path to genes
+q1=/tempdata3/KGalla/aenig/KJHR3D_D11_R1.mp.fastq.gz
+q2=/tempdata3/KGalla/aenig/KJHR3D_D11_R2.mp.fastq.gz
+[LIB]
+#average insert size
+avg_ins=7539
+#if sequence needs to be reversed
+reverse_seq=0
+#in which part(s) the reads are used
+asm_flags=2
+#use only first 250 bps of each read
+rd_len_cutoff=150
+#in which order the reads are used while scaffolding
+rank=2
+# cutoff of pair number for a reliable connection (at least 3 for short insert size)
+pair_num_cutoff=5
+#minimum aligned length to contigs for a reliable read location (at least 32 for short insert size)
+map_len=35
+# path to genes
+q1=/tempdata3/KGalla/aenig/KJHR3D_D6_R1.mp.fastq.gz
+q2=/tempdata3/KGalla/aenig/KJHR3D_D6_R2.mp.fastq.gz
