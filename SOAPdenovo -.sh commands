@@ -1,0 +1,23 @@
+#Commands in .sh file for L. aenigmaticum:
+#27 kmer:
+SOAPdenovo-63mer all -s /tempdata3/KGalla/aenig/KJHRD_aenig_SOAP_MP.config -p 12 -K 27 -R -o graph_KJHRD_SOAP_27_MP 1>KJHRD_SOAP_MP_ass27.log 2>KJHRD_SOAP_MP_ass27.err
+#31 kmer:
+SOAPdenovo-63mer all -s /tempdata3/KGalla/aenig/KJHRD_aenig_SOAP_MP.config -p 12 -K 31 -R -o graph_KJHRD_SOAP_31_MP 1>KJHRD_SOAP_MP_ass31.log 2>KJHRD_SOAP_MP_ass31.err
+#35 kmer:
+SOAPdenovo-63mer all -s /tempdata3/KGalla/aenig/KJHRD_aenig_SOAP_MP.config -p 12 -K 35 -R -o graph_KJHRD_SOAP_35_MP 1>KJHRD_SOAP_MP_ass35.log 2>KJHRD_SOAP_MP_ass35.err
+
+#Commands in .sh file for L. daileyi:
+#27 kmer
+SOAPdenovo-63mer all -s /tempdata3/KGalla/daileyi/27mer/KJHRE_daileyi_SOAP.config -p 12 -K 27 -R -o graph_KJHRE_SOAP_27 1>KJHRE_SOAP_ass27.log 2>KJHRE_SOAP_ass27.err
+#31 kmer
+SOAPdenovo-63mer all -s /tempdata3/KGalla/daileyi/27mer/KJHRE_daileyi_SOAP.config -p 12 -K 31 -R -o graph_KJHRE_SOAP_31 1>KJHRE_SOAP_ass31.log 2>KJHRE_SOAP_ass31.err
+#35 kmer
+SOAPdenovo-63mer all -s /tempdata3/KGalla/daileyi/27mer/KJHRE_daileyi_SOAP.config -p 12 -K 35 -R -o graph_KJHRE_SOAP_35 1>KJHRE_SOAP_ass35.log 2>KJHRE_SOAP_ass35.err
+
+#Commands in .sh file for L. amplifica:
+#27 kmer:
+SOAPdenovo-63mer all -s /tempdata3/KGalla/amplifica/KJHRF_amplifica_SOAP.config -p 12 -K 27 -R -o graph_KJHRF_SOAP_27 1>KJHRF_SOAP_ass27.log 2>KJHRF_SOAP_ass27.err
+#31 kmer
+SOAPdenovo-63mer all -s /tempdata3/KGalla/amplifica/KJHRF_amplifica_SOAP.config -p 12 -K 31 -R -o graph_KJHRF_SOAP_31 1>KJHRF_SOAP_ass31.log 2>KJHRF_SOAP_ass31.err
+#35 kmer
+SOAPdenovo-63mer all -s /tempdata3/KGalla/amplifica/KJHRF_amplifica_SOAP.config -p 12 -K 35 -R -o graph_KJHRF_SOAP_35 1>KJHRF_SOAP_ass35.log 2>KJHRF_SOAP_ass35.err
