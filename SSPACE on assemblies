@@ -5,3 +5,4 @@ perl /opt/bioinformatics/SSPACE-STANDARD/SSPACE_Standard_v3.0.pl -l /archive/KGa
 perl /opt/bioinformatics/SSPACE-STANDARD/SSPACE_Standard_v3.0.pl -l Sp_library_daileyi.txt -s /tempdata3/KGalla/daileyi/Masurca_Nov10/genome.ctg.fasta -T 16
 
 #Code on MaSURCA assembly for L. amplifica
+perl /opt/bioinformatics/SSPACE-STANDARD/SSPACE_Standard_v3.0.pl -l amp_sp_lib.txt -s KJHRF_Dec9_genome.ctg.fasta -T 8
