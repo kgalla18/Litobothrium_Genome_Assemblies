@@ -15,3 +15,11 @@ lib3 bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2E_L2_R1.fastq /a
 unpaired bowtie /archive/KGalla/LitoGenomes/550Seq/SickleFiles/unpaired_KJHR1E.fastq
 unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2E_L1.fastq
 unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2E_L2.fastq
+
+#Species library for L. amplifica
+lib1 bowtie /archive/KGalla/LitoGenomes/550Seq/SickleFiles/KJHR1F_R1.fastq /archive/KGalla/LitoGenomes/550Seq/SickleFiles/KJHR1F_R2.fastq 550 0.75 FR
+lib2 bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2F_L1_R1.fastq /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2F_L1_R2.fastq 350 0.75 FR
+lib3 bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2F_L2_R1.fastq /archive/KGalla/LitoGenomes/350Seq/SickleFiles/KJHR2F_L2_R2.fastq 350 0.75 FR
+unpaired bowtie /archive/KGalla/LitoGenomes/550Seq/SickleFiles/unpaired_KJHR1F.fastq
+unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2F_L1.fastq
+unpaired bowtie /archive/KGalla/LitoGenomes/350Seq/SickleFiles/unpaired_KJHR2F_L2.fastq
