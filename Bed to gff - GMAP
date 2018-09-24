@@ -1,0 +1,35 @@
+import sys,re
+
+fh = open("gmap.dail.complete_mods.FINAL.filtered.bed", "r")
+maker = fh.readlines()
+
+gene_mods=[]
+for i in maker:
+	column=i.split("\t")
+    col=column[3]
+    gene_mods.append(col)
+    
+print len(gene_mods)
+
+fh1 = open("gmap.dail.all.gff", "r")
+gff = fh1.readlines()
+
+record=[]
+
+for i in gff:
+	if i[0] != "#":
+		i=i.strip("\n")
+		column=i.split("\t")
+		col = column[8]
+		c=col.split(";")
+		c1=c[1]
+		c2=c1.split("=")
+		c3=c2[1]
+		if c3 in gene_mods:
+			record.append(i)
+		
+NamePerLine='\n'.join([ str(myelement) for myelement in record ]) 
+
+fh=open("aenig.gmap.filtered.gff", "w")
+fh.writelines(NamePerLine)
+fh.close()	
