@@ -1,0 +1,27 @@
+import sys,re
+from Bio import SeqIO
+
+fh = open("dail.braker.complete.gfacs_over_filtered.gtf", "r")
+maker = fh.readlines()
+
+gene_mods=[]
+for i in maker:
+	column=i.split("\t")
+    if column[2] == "CDS":
+    	col = column[8]
+    	gene_mods.append(col)
+    
+print len(gene_mods)
+
+wanted=[]
+for i in gene_mods:
+	i=i.strip()
+	wanted.append(i)
+
+output = open("dail.braker.filtered.complete.genemodels.fasta", "w")
+
+records = (r for r in SeqIO.parse(open("dail.braker.augustus.aa.fasta", "r"),'fasta') if r.id in wanted)
+
+SeqIO.write(records, output, "fasta")
+
+output.close()
